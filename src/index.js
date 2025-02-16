@@ -4,6 +4,7 @@ import dotnev from "dotenv"
 // import mangoose from "mongoose"
 // import { DB_name } from "./constants.js";
 import connectDB from "./db/index.js";
+import {app} from './app.js'
 
 dotnev.config({
   path: "./env"

@@ -5,9 +5,9 @@ import dotnev from "dotenv"
 // import { DB_name } from "./constants.js";
 import connectDB from "./db/index.js";
 import {app} from './app.js'
-
+ 
 dotnev.config({
-  path: "./env"
+  path: "./.env"
 })
 
 connectDB()
